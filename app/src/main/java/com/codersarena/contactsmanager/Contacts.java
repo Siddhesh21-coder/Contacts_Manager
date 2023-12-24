@@ -16,8 +16,8 @@ public class Contacts {
     @ColumnInfo(name="contacts_dob")
     private String dob;
 
-    public Contacts(int ID, String name, String email, String dob) {
-        this.ID = ID;
+    public Contacts( String name, String email, String dob) {
+
         this.name = name;
         this.email = email;
         this.dob = dob;
